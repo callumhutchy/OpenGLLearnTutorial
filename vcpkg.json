@@ -1,0 +1,22 @@
+{
+    "name": "opengl-engine",
+    "version": "1",
+    "description": "",
+    "homepage": "",
+    "license": "MIT",
+    "dependencies": [
+        "opengl",
+        "opencl",
+        {
+            "name": "bullet3",
+            "features": [
+                "double-precision",
+                "opencl",
+                "multithreading"
+            ]
+        },
+        "imgui",
+        "glfw3",
+        "glad"
+    ]
+}
